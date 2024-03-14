@@ -26,7 +26,7 @@ This repository contains the source code for a Location Based Notes Android appl
 ## Screenshots
 - **Login Screen**: Allows users to log in to the app.
 - **Registration Screen**: Allows new users to create an account.
-- **Notes List Screen**: Displays a list of notes with titles and bodies.
+- **Notes List Screen**: Displays a list of notes with titles, bodies, and dates.
 - **Note Detail Screen**: Allows users to view and edit individual notes.
 - **Map Screen**: Shows notes pinned on a map based on their locations.
 
