@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".frag_register">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#cccfff">
+
+        <Button
+            android:id="@+id/regSignUpButton"
+            android:layout_width="198dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="60dp"
+            android:text="sign up"
+            android:textStyle="bold"
+            android:background="@drawable/btn_signup"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/regPassword" />
+
+        <EditText
+            android:id="@+id/regPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/frame_edit_text"
+            android:drawablePadding="20dp"
+            android:ems="17"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:padding="20dp"
+            android:textColor="@color/black"
+            android:textColorHint="#8199A8"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.49"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/regEmail" />
+
+        <EditText
+            android:id="@+id/regName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="48dp"
+            android:background="@drawable/frame_edit_text"
+            android:drawablePadding="20dp"
+            android:ems="17"
+            android:hint="Name"
+            android:padding="20dp"
+            android:textColor="@color/black"
+            android:textColorHint="#8199A8"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.49"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/signUpText" />
+
+        <EditText
+            android:id="@+id/regEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/frame_edit_text"
+            android:drawablePadding="20dp"
+            android:ems="17"
+            android:hint="E-Mail"
+            android:padding="20dp"
+            android:textColor="@color/black"
+            android:textColorHint="#8199A8"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.49"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/regName" />
+
+        <TextView
+            android:id="@+id/signUpText"
+            android:layout_width="164dp"
+            android:layout_height="39dp"
+            android:layout_marginTop="64dp"
+            android:fontFamily="@font/fortune"
+            android:gravity="center"
+            android:text="please sign up:"
+            android:textColor="#000000"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>
